@@ -1,4 +1,11 @@
 "use strict";
+
+let admin;
+let name = "John";
+
+admin = name;
+
+alert(admin);
 // the above is the use strict task from javascript.info
 // alert("success")
 
@@ -21,9 +28,9 @@
 
 // let sayHi = () => alert("Hello!");
 
-alert("Literally what they tell you not to do.")
-alert("just a mess!")
+// alert("Literally what they tell you not to do.")
+// alert("just a mess!")
 
 // the above are Tasks from javascript.info
 
-sayHi();
+// sayHi();
