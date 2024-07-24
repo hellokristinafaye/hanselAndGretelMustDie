@@ -11,8 +11,17 @@
 
 // alert(sum(13, 12)); // 3
 
-let double = n => n * 2;
-// roughly the same as: let double = function(n) { return n * 2 }
+// let double = n => n * 2;
+// // roughly the same as: let double = function(n) { return n * 2 }
 
-alert(double(23)); // 46
+// alert(double(23)); // 46
 
+
+// let sayHi = () => alert("Hello!");
+
+alert("Literally what they tell you not to do.")
+alert("just a mess!")
+
+// the above are Tasks from javascript.info
+
+sayHi();
