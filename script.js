@@ -1,11 +1,16 @@
 "use strict";
 
-let admin;
-let name = "John";
+let ourPlanet = "Earth";
+let currentUserName = "John";
 
-admin = name;
 
-alert(admin);
+
+// let admin;
+// let name = "John";
+
+// admin = name;
+
+// alert(admin);
 // the above is the use strict task from javascript.info
 // alert("success")
 
