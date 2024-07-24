@@ -1,3 +1,5 @@
+"use strict";
+// the above is the use strict task from javascript.info
 // alert("success")
 
 // let sum = (a, b) => a * b;
