@@ -1,7 +1,11 @@
 "use strict";
 
-let ourPlanet = "Earth";
-let currentUserName = "John";
+let userInput = prompt("what's your name?", "Name Goes Here")
+alert(userInput);
+
+
+// let ourPlanet = "Earth";
+// let currentUserName = "John";
 
 
 
