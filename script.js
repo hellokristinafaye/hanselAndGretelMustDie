@@ -1,7 +1,13 @@
 "use strict";
 
-let userInput = prompt("what's your name?", "Name Goes Here")
-alert(userInput);
+let i = 0;
+while (i < 3) { // shows 0, then 1, then 2
+    alert(i);
+    i++;
+}
+
+// let userInput = prompt("what's your name?", "Name Goes Here")
+// alert(userInput);
 
 
 // let ourPlanet = "Earth";
