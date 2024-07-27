@@ -1,10 +1,33 @@
 "use strict";
 
-let i = 0;
-while (i < 3) { // shows 0, then 1, then 2
-    alert(i);
-    i++;
+// let i = 0;
+// while (i < 3) { // shows 0, then 1, then 2
+//     alert(i);
+//     i++;
+// }
+
+// let m = 1;
+// while (m < 4) {
+//     console.log("holler!" + m);
+//     m++;
+// }
+
+outer: for (let i = 0; i < 2; i++) {
+
+    for (let j = 0; j < 2; j++) {
+
+        let input = prompt(`Value at coords (${i},${j})`, '');
+
+        // if an empty string or canceled, then break out of both loops
+        if (!input) break outer; // (*)
+
+        // do something with the value...
+        alert(`${i},${j}`);
+    }
 }
+
+
+
 
 // let userInput = prompt("what's your name?", "Name Goes Here")
 // alert(userInput);
