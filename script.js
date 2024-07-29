@@ -12,19 +12,19 @@
 //     m++;
 // }
 
-outer: for (let i = 0; i < 2; i++) {
+// outer: for (let i = 0; i < 2; i++) {
 
-    for (let j = 0; j < 2; j++) {
+//     for (let j = 0; j < 2; j++) {
 
-        let input = prompt(`Value at coords (${i},${j})`, '');
+//         let input = prompt(`Value at coords (${i},${j})`, '');
 
-        // if an empty string or canceled, then break out of both loops
-        if (!input) break outer; // (*)
+//         // if an empty string or canceled, then break out of both loops
+//         if (!input) break outer; // (*)
 
-        // do something with the value...
-        alert(`${i},${j}`);
-    }
-}
+//         // do something with the value...
+//         alert(`${i},${j}`);
+//     }
+// }
 
 
 
@@ -47,13 +47,15 @@ outer: for (let i = 0; i < 2; i++) {
 // the above is the use strict task from javascript.info
 // alert("success")
 
-// let sum = (a, b) => a * b;
+let sum = (a, b) => a * b;
 
+console.log('sum: ' + sum(2, 14));
 // /* This arrow function is a shorter form of:
 
-// let sum = function(a, b) {
-//   return a + b;
-// };
+let sum1 = function(a, b) {
+    return a - b;
+};
+console.log('sum1: ' + sum1(23, 4));
 // */
 
 // alert(sum(13, 12)); // 3
