@@ -1,5 +1,42 @@
 "use strict";
 
+
+
+// function checkAge(age) {
+//     if (age > 18) {
+//         return true;
+//     } 
+//         // ...
+//         return confirm('Did parents allow you?');
+    
+// }
+
+// let test = checkAge(21);
+// console.log(test);
+// console.log(checkAge());
+
+
+// function showMessage(text) {
+//     // ...
+
+//     if (text === undefined) { // if the parameter is missing
+//         text = 'empty message';
+//     }
+
+//     alert(text);
+// }
+
+// showMessage("hi"); // empty message
+
+
+// function sum(a, b) {
+//     return a + b;
+// }
+
+// let result = sum(1, 2);
+// alert(result); // 3
+
+
 // let i = 0;
 // while (i < 3) { // shows 0, then 1, then 2
 //     alert(i);
@@ -47,15 +84,15 @@
 // the above is the use strict task from javascript.info
 // alert("success")
 
-let sum = (a, b) => a * b;
+// let sum = (a, b) => a * b;
 
-console.log('sum: ' + sum(2, 14));
-// /* This arrow function is a shorter form of:
+// console.log('sum: ' + sum(2, 14));
+// // /* This arrow function is a shorter form of:
 
-let sum1 = function(a, b) {
-    return a - b;
-};
-console.log('sum1: ' + sum1(23, 4));
+// let sum1 = function(a, b) {
+//     return a - b;
+// };
+// console.log('sum1: ' + sum1(23, 4));
 // */
 
 // alert(sum(13, 12)); // 3
