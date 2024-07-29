@@ -1,5 +1,25 @@
 "use strict";
 
+function pow(x, n) {
+    return Math.pow(x, n)
+}
+
+console.log(pow(3, 2));
+console.log(pow(3, 3));
+console.log(pow(1, 1));
+
+// function min(a, b) {
+//     if (a < b) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
+
+// console.log(min(2,1))
+// console.log(min(2,1.3))
+// console.log(min(2,5))
+
 
 
 // function checkAge(age) {
