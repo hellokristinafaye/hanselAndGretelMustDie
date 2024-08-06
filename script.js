@@ -1,10 +1,41 @@
 "use strict";
 
-let sayHi = function () {
-    alert("Bombastic");
-};
 
-sayHi();
+marinateChicken(chicken);
+grillChicken(chicken);
+// let's practice naming functions
+// write like 5-10 function names based on tasks that happen at work.  OH like let's break down a Mess Hall Dinner menu by functions.  Like, a Mess Hall Dinner program
+function marinateChicken(meat) {
+    let lime = getLimeJuice();
+    let herb = driedOregano();
+    let fat = blendOil();
+
+    return lime + herb + fat;
+}
+
+function getLimeJuice() {
+    
+}
+
+function driedOregano() {
+
+}
+
+function blendOil() {
+    
+}
+
+function grillChicken(meat) {
+    let heat = fireGrill();
+    let tools = gatherHardware();
+    let cook = work();
+    
+}
+// let sayHi = function () {
+//     alert("Bombastic");
+// };
+
+// sayHi();
 
 
 // function pow(x, n) {
